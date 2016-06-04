@@ -51,7 +51,6 @@ EnterBills.schema = new SimpleSchema({
         type: Date,
         optional: true
     },
-    isReceived: Boolean,
     classId: {
         type: String,
         optional: true
@@ -81,7 +80,10 @@ EnterBills.schema = new SimpleSchema({
     },
     'enterBillsDetail.$.locationId': {
         type: String
-    }
+    },
+    isReceived: {
+        type: Boolean
+    },
 
 })
 EnterBills.attachSchema(EnterBills.schema);

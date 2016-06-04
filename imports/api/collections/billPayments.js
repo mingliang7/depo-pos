@@ -21,8 +21,8 @@ BillPayments.schema = new SimpleSchema({
     vendorId: {
         type: String
     },
-    staffId:{
-      type: String
+    staffId: {
+        type: String
     },
     status: {
         type: String

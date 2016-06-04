@@ -37,10 +37,9 @@ Items.schema = new SimpleSchema({
     status: {
         type: String,
     },
-    accountId:{
-      type: String
+    accountId: {
+        type: String
     }
-
 })
 
 Items.attachSchema(Items.schema);
